@@ -1,0 +1,72 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(img/enhanced-image\ \(1\).png);
+    background-size: cover;
+}
+
+header {
+    background-image: url(img/purple\ bg.png);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    opacity: 0; 
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sponsor {
+    width: 250px; 
+    height: 300px; 
+    margin: 20px;
+    padding: 30px; 
+    background: rgba(144, 144, 230, 0.3); 
+    backdrop-filter: blur(10px); 
+    
+    box-shadow: 10px 4px 8px rgba(229, 97, 97, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: goldenrod;
+    font-size: larger;
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid goldenrod;
+}
+
+.sponsor:hover {
+    transform: scale(1.05);
+}
+
+.sponsor img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.sponsor p {
+      margin-top: 40px; 
+      border: 2px solid goldenrod;
+}
+
+.sps{
+    border: 2px solid goldenrod;
+    
+}
